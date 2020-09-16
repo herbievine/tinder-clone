@@ -1,16 +1,24 @@
 import React from 'react'
-import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp'
-import ChatBubbleOutlineSharpIcon from '@material-ui/icons/ChatBubbleOutlineSharp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styles/Navigation.css'
+import { faUser, faComments } from '@fortawesome/free-regular-svg-icons'
 
-function Navigation() {
-    return (
-        <div className="navigation">
-            <PersonOutlineSharpIcon />
-            <h2>Herbie</h2>
-            <ChatBubbleOutlineSharpIcon />
-        </div>
-    )
-}
+const Navigation = () => (
+    <div className="navigation">
+        <FontAwesomeIcon
+            icon={faUser}
+            style={{ color: '#555555', fontSize: 20 }}
+        />
+        <img
+            className="tinder-logo"
+            src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
+            alt="Tinder Logo"
+        />
+        <FontAwesomeIcon
+            icon={faComments}
+            style={{ color: '#555555', fontSize: 20 }}
+        />
+    </div>
+)
 
 export default Navigation

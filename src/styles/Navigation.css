@@ -1,4 +1,12 @@
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+    padding: 20px 30px;
+}
+
+.tinder-logo {
+    width: 65px;
+    object-fit: contain;
 }
