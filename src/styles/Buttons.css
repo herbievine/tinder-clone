@@ -1,7 +1,6 @@
 .buttons {
-    margin-bottom: 12vh;
-    width: 50vh;
-    max-width: 500px;
+    width: 95%;
+    max-width: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;

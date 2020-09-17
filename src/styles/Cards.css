@@ -1,15 +1,15 @@
 .cards-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .card {
-    position: relative;
-    width: 50vh;
+    width: 50vw;
     max-width: 500px;
-    height: 50vh;
+    min-width: 300px;
+    height: 50vw;
     max-height: 500px;
+    min-height: 300px;
     padding: 20px;
     border-radius: 20px;
     background-size: cover;
@@ -40,10 +40,12 @@
 
 .lastCard {
     position: relative;
-    width: 50vh;
+    width: 50vw;
     max-width: 500px;
-    height: 50vh;
+    min-width: 300px;
+    height: 50vw;
     max-height: 500px;
+    min-height: 300px;
     padding: 20px;
     border-radius: 20px;
     background-color: #555555;

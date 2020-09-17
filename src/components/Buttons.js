@@ -29,7 +29,7 @@ const buttons = [
 const Buttons = () => (
     <div className="buttons">
         {buttons.map(button => (
-            <div className="button">
+            <div className="button" key={button.icon.toLowerCase()}>
                 <FontAwesomeIcon
                     icon={findIcon(button.icon)}
                     style={{ color: button.color, fontSize: 20 }}

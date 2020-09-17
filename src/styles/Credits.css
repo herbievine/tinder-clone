@@ -1,0 +1,35 @@
+.credits {
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 18px 53px 0 rgba(0, 0, 0, .4);
+}
+
+.credit-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.credit-wrapper > h4 {
+    color: #222222;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222222;
+}
+
+.credit-wrapper > h6 {
+    color: #222222;
+    font-weight: lighter;
+}
+
+.credit-wrapper > a {
+    color: #222222;
+    font-weight: lighter;
+    text-decoration: underline;
+}
